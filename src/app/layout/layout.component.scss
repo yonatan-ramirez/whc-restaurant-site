@@ -1,0 +1,131 @@
+#first{
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
+  color: white;
+  background-image: url("../../assets/img/pexels-photo-238306.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  .container{
+    width: 100%;
+  }
+  .para{
+    font-weight: 200;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+  }
+  i{
+    padding-left:10px;
+    padding-right:10px;
+    color: rgb(250, 200, 200);
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+
+  }
+  .rp{
+    h1{
+      text-shadow: 3px 3px black;
+      padding-bottom: 3rem;
+      font-weight: 700;
+      font-size: 50px;
+    }
+  }
+}
+#second{
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  text-align: center !important;
+  .container{
+    width: 100%;
+  }
+  .care{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    width: 60%;
+    padding:0;
+    margin: 0;
+  }
+}
+#thrid{
+  .container-fluid{
+    padding:0 !important;
+    width: 100%;
+  }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .displaytext{
+    padding: 2rem;
+    background-color: black;
+    h5{
+      color: white;
+    }
+    p{
+      color: gray;
+    }
+  }
+  .img{
+    background-image: url("../../assets/img/restsign.jpg");
+    // background-attachment: fixed;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+  .img2{
+    background-image: url("../../assets/img/pizzaplace.jpeg");
+    // background-attachment: fixed;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+#fourth{
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  .container-fluid{
+    width: 100%;
+  }
+  .left{
+    padding-left: 3rem;
+    float:left;
+  }
+  .right{
+    padding-left:3rem;
+    float: left;
+  }
+}
+#fifth{
+  padding-top:7rem;
+  padding-bottom: 7rem;
+  text-align: center!important;
+  background-image:url("../../assets/img/pexels-photo-260922.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  .container{
+    width: 100%;
+  }
+  .row{
+    text-align: center !important;
+    padding: 4rem 4rem 2rem 4rem;
+    background-color: white;;
+  }
+  p{
+    font-weight: 200;
+  }
+}
+#six{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  .container{
+    width: 100%;
+  }
+}
+@media only space and (max-width: 756px) {
+.rp{
+  font-size: 50px;
+}
+}
